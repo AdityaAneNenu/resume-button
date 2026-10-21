@@ -5,7 +5,7 @@ $taskOutputDir = Join-Path $taskRoot 'artifacts/releases'
 New-Item -ItemType Directory -Force -Path $taskOutputDir | Out-Null
 $taskArchive = Join-Path $taskOutputDir "resume-button-$taskVersion-source.zip"
 $taskFiles = @(
-  '.gitignore', '.prettierignore', 'BUILD_STATUS.md', 'CHANGELOG.md', 'CONTRIBUTING.md',
+  '.gitattributes', '.gitignore', '.prettierignore', 'BUILD_STATUS.md', 'CHANGELOG.md', 'CONTRIBUTING.md',
   'LICENSE', 'README.md', 'THIRD_PARTY.md', 'index.html', 'package.json',
   'package-lock.json', 'playwright.config.ts', 'tsconfig.json', 'vite.config.ts'
 )
