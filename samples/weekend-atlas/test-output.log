@@ -1,0 +1,7 @@
+Fictional test output supplied as demonstration context.
+PASS renders destination cards
+PASS displays an empty state for no results
+FAIL keeps results for the latest query
+Expected: Lisbon
+Received: Listowel
+Requests resolved in reverse order: Lisbon, then Lis.

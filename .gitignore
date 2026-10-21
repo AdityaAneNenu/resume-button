@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.resume-button/
+.runtime/
+.env
+.env.*
+!.env.example
+*.log
+artifacts/
+!samples/**/*.log
